@@ -1,0 +1,60 @@
+.container{
+    background-color:rgb(238, 232, 232);
+    display:inline-block;
+    padding:10px 20px;
+    text-align:left;
+    min-width:300px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:350px;
+    border-radius: 5px;
+    margin:2% 40%;
+    border:none;
+    box-shadow: 10px 10px 20px  rgb(173, 145, 150);
+}
+.title{
+    font-size: 25px;
+    font-weight:20px;
+    font-family:cursive;
+    color:rgb(99, 78, 53);
+    text-align: center;
+}
+
+.formTable{
+    margin-bottom:15px;
+    line-height:35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    line-height: 25px;
+    border-radius: 5px;
+   
+}
+
+label{
+    font-size:15px;
+    font-weight:20px;
+    font-family:cursive;
+    color: rgb(58, 37, 58);
+}
+
+button{
+    margin-top: 20px;
+    background-color :rgb(151, 128, 100);
+    font-size:24px;
+    padding:10px 20px;
+    border:0;
+    transition:0.5s all ease-in-out;
+    cursor:pointer;
+    border-radius: 5px;
+    color:rgb(240, 232, 236);
+    font-family:cursive;
+}
+button:hover{
+    background-color: rgb(216, 179, 77);
+    color: rgb(99, 78, 53);
+}
