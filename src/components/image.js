@@ -4,7 +4,7 @@ import './image.css';
 const Image  =()=> {
   return (
    <div>
-       <img src='/registerpage/tree/gh-pages/images/selim.jpg' alt='selim' />
+       <img src='./images/selim.jpg' alt='selim' />
    </div>
   );
 };
